@@ -1,4 +1,4 @@
-const size = {
+export const Size = {
   mobileS: "320px",
   mobileM: "375px",
   mobileL: "425px",
@@ -8,12 +8,12 @@ const size = {
 }
 
 export const Device = {
-  mobileS: `(min-width: ${size.mobileS})`,
-  mobileM: `(min-width: ${size.mobileM})`,
-  mobileL: `(min-width: ${size.mobileL})`,
-  tablet: `(min-width: ${size.tablet})`,
-  laptop: `(min-width: ${size.laptop})`,
-  desktop: `(min-width: ${size.desktop})`,
+  mobileS: `(min-width: ${Size.mobileS})`,
+  mobileM: `(min-width: ${Size.mobileM})`,
+  mobileL: `(min-width: ${Size.mobileL})`,
+  tablet: `(min-width: ${Size.tablet})`,
+  laptop: `(min-width: ${Size.laptop})`,
+  desktop: `(min-width: ${Size.desktop})`,
 }
 
 export const Color = {
